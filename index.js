@@ -166,8 +166,8 @@ function compromiseNoun(text){
 // var paragraph = [`1-We all pray SEBI for our well being,but despite some mothers being so big devotees go via miseries,losing their kids or even financial issues?`, `2-The richest billionaires in West live a lifestyle which most here ask God for,bt they aren't big devotees like Indians!What's missing?`]
 
 
-function processText(paragraph){
-
+function processText(p){
+    const paragraph = p.split(".")
     var result = {}
 
     for (let i = 0; i < paragraph.length; i++) {
